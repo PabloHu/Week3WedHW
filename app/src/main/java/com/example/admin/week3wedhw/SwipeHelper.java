@@ -3,7 +3,6 @@ package com.example.admin.week3wedhw;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.helper.ItemTouchHelper;
 import android.util.Log;
-import android.widget.Toast;
 
 /**
  * Created by Admin on 9/13/2017.
@@ -34,4 +33,6 @@ public static final String TAG = "SwipeHelperTAG";
 adapter.dismissAnimal(viewHolder.getAdapterPosition());
         Log.d(TAG, "onSwiped: "+viewHolder.getAdapterPosition());
     }
+
+
 }
